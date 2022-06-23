@@ -21,6 +21,8 @@ public class CalcoliTest {
 		System.out.println("Il numero minimo è: " + CalcoliHelper.numeroMinimo(10.1, 8.4));
 		System.out.println("Il numero massimo è: " + CalcoliHelper.numeroMassimo(20.0, 30.1));
 		System.out.println("Il valore assoluto è: "+ CalcoliHelper.valoreAssoluto(-5.2));
+		
+		System.out.println(CalcoliHelper.calcolaPotenza(2, 3));
 	}
 
 }

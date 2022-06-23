@@ -133,6 +133,12 @@ public class CalcoliHelper {
 			}
 			return massimo;
 		}
+		/*BONUS 2: aggiungete il metodo per l’elevamento a potenza che prende come parametri due numeri interi (base ed esponente) e 
+		 * ritorna la base elevata all’esponente. Occhio che sia la base che l’esponente potrebbero essere uguali a zero oppure numeri negativi! (caso esponente = 0 e base = 0 anche se in matematica sarebbe un numero indefinito usiamo l’approccio informatico che lo calcola come 1)*/
+		
+		public static double calcolaPotenza(int num, int pow){
+		        return Math.pow(num,pow);
+		}
 }
 	
 

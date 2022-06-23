@@ -12,6 +12,7 @@ public class CalcoliTest {
 		System.out.println("Il risultato della moltiplicazione dei due interi è: " + CalcoliHelper.moltiplicazione(5, 6));
 		System.out.println("Il numero minimo è: " + CalcoliHelper.numeroMinimo(10, 8));
 		System.out.println("Il numero massimo è: " + CalcoliHelper.numeroMassimo(20, 30));
+		System.out.println("Il valore assoluto è: "+ CalcoliHelper.valoreAssoluto(-5));
 	}
 
 }

@@ -39,10 +39,13 @@ public class CalcoliHelper {
 	
 	//valore assoluto
 	public static int valoreAssoluto(int h) {
-		if(h<0) {
-			h=h;
+		
+		if(h < 0) {
+			return h = - h;
+		}else {
+			return h ;
 		}
-		return h;
+		
 	}
 	
 	//minimo tra 2 numeri

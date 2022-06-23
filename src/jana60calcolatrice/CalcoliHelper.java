@@ -70,7 +70,69 @@ public class CalcoliHelper {
 		}
 		return massimo;
 	}
+	
+	/*BONUS per ogni metodo scrivetene una versione che esegue le stesse operazioni ma su parametri double.
+	Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi di programmazione ad oggetti…Quale? Scrivetelo 
+	in un commento all’interno del vostro codice! */
 		
+		//il principio della programmaione ad oggetti usato è overloading dei metodi sovrascrivendo il metodo cambiando le variabili da int a double
+		
+	//somma
+		public static double somma(double a, double b) {
+			return a+b;
+		}
+		
+		//differenza
+		public static double differenza(double c, double d) {
+			return c - d;
+		}
+		//differenza 2 
+		public static double differenza2(double c2, double d2) {
+			if(c2 < d2) {
+				return d2 - c2;
+			}else {
+				return d2 - c2;
+			}
+		}
+		
+		//moltiplicazione
+		public static double moltiplicazione(double e, double f) {
+			return e * f;
+		}
+		
+		//valore assoluto
+		public static double valoreAssoluto(double h) {
+			
+			if(h < 0) {
+				return h = - h;
+			}else {
+				return h ;
+			}
+			
+		}
+		
+		//minimo tra 2 numeri
+		public static double numeroMinimo(double i, double l) {
+			double minimo;
+			if(i < l) {
+				minimo= i;
+			}else {
+				minimo = l;
+			}
+			return minimo;
+		}
+		
+
+		//massimo tra due numeri
+		public static double numeroMassimo(double r, double r2) {
+			double massimo;
+			if(r > r2) {
+				massimo= r;
+			}else {
+				massimo = r2;
+			}
+			return massimo;
+		}
 }
 	
 

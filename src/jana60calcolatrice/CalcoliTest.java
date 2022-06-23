@@ -13,6 +13,14 @@ public class CalcoliTest {
 		System.out.println("Il numero minimo è: " + CalcoliHelper.numeroMinimo(10, 8));
 		System.out.println("Il numero massimo è: " + CalcoliHelper.numeroMassimo(20, 30));
 		System.out.println("Il valore assoluto è: "+ CalcoliHelper.valoreAssoluto(-5));
+	
+	
+		System.out.println("La somma dei due interi è: " + CalcoliHelper.somma(4.1, 6.2));
+		System.out.println("La differenza dei due interi è: " + CalcoliHelper.differenza(8.2,4.3));
+		System.out.println("Il risultato della moltiplicazione dei due interi è: " + CalcoliHelper.moltiplicazione(5.1, 6.2));
+		System.out.println("Il numero minimo è: " + CalcoliHelper.numeroMinimo(10.1, 8.4));
+		System.out.println("Il numero massimo è: " + CalcoliHelper.numeroMassimo(20.0, 30.1));
+		System.out.println("Il valore assoluto è: "+ CalcoliHelper.valoreAssoluto(-5.2));
 	}
 
 }

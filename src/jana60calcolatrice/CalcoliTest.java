@@ -7,11 +7,11 @@ public class CalcoliTest {
 
 	public static void main(String[] args) {
 		
-		System.out.println(CalcoliHelper.somma(4, 6));
-		System.out.println(CalcoliHelper.differenza(8,4));
-		System.out.println(CalcoliHelper.moltiplicazione(5, 6));
-		System.out.println(CalcoliHelper.numeroMinimo(10, 8));
-		System.out.println(CalcoliHelper.numeroMassimo(20, 30));
+		System.out.println("La somma dei due interi è: " + CalcoliHelper.somma(4, 6));
+		System.out.println("La differenza dei due interi è: " + CalcoliHelper.differenza(8,4));
+		System.out.println("Il risultato della moltiplicazione dei due interi è: " + CalcoliHelper.moltiplicazione(5, 6));
+		System.out.println("Il numero minimo è: " + CalcoliHelper.numeroMinimo(10, 8));
+		System.out.println("Il numero massimo è: " + CalcoliHelper.numeroMassimo(20, 30));
 	}
 
 }
